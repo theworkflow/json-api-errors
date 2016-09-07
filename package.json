@@ -1,9 +1,12 @@
 {
   "name": "json-api-errors",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "JSON api errors formatter",
   "main": "errors.js",
   "scripts": {
+    "gen-coverage": "lab --coverage --reporter lcov --output coverage/lcov.info",
+    "lint": "standard",
+    "pretest": "npm run lint",
     "test": "lab -c"
   },
   "keywords": [
@@ -25,9 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "code": "3.0.2",
-    "lab": "11.0.1"
-  },
-  "dependencies": {
-    "hoek": "^4.0.2"
+    "lab": "11.0.1",
+    "standard": "8.0.0"
   }
 }
