@@ -1,0 +1,33 @@
+{
+  "name": "json-api-errors",
+  "version": "0.1.0",
+  "description": "JSON api errors formatter",
+  "main": "errors.js",
+  "scripts": {
+    "test": "lab -c"
+  },
+  "keywords": [
+    "json",
+    "api",
+    "errors",
+    "formatter",
+    "restify",
+    "express",
+    "hapi",
+    "koa",
+    "http",
+    "https",
+    "nodejs",
+    "node",
+    "npm"
+  ],
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "3.0.2",
+    "lab": "11.0.1"
+  },
+  "dependencies": {
+    "hoek": "^4.0.2"
+  }
+}
