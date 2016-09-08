@@ -9,6 +9,10 @@
     "pretest": "npm run lint",
     "test": "lab -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theworkflow/json-api-errors.git"
+  },
   "keywords": [
     "json",
     "api",
@@ -26,6 +30,10 @@
   ],
   "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theworkflow/json-api-errors/issues"
+  },
+  "homepage": "https://github.com/theworkflow/json-api-errors#readme",
   "devDependencies": {
     "code": "3.0.2",
     "lab": "11.0.1",
